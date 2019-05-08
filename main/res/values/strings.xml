@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Home Light Controller</string>
+    <string name="setTimer">SET TIMER</string>
+    <string name="setBright">SET BRIGHT</string>
+    <string name="room1">Terrace</string>
+    <string name="room2">Living Room</string>
+    <string name="room3">Bed Room</string>
+    <string name="room4">Closet Room</string>
+    <string name="about">Home Light Monitoring and Controlling Application \n\nVersion 1.0.0 \n\nThis application is about to help the user in controlling and monitoring the home light remotely using the mobile phone. \n\nThis application is created for the purpose of the creator thesis.</string>
+    <string name="contact">Contact Creator \n\nNadya Regina Djodjobo (001201500065) \n\nInformation Technology - President University</string>
+    <string name="about2">Double click the image of the room to turn the lamp on. \n\nSingle click the image of the room to turn the lamp off. \n\nLong click the image of the room to directly to each feature. </string>
+
+    <string-array name="month">
+        <item>january</item>
+        <item>february</item>
+        <item>march</item>
+        <item>april</item>
+        <item>may</item>
+        <item>june</item>
+        <item>july</item>
+        <item>august</item>
+        <item>september</item>
+        <item>october</item>
+        <item>november</item>
+        <item>december</item>
+    </string-array>
+</resources>

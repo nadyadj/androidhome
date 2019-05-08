@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgblue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Saving Energy by Controlling and Monitoring Home Light using Arduino and Android  "/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/about"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/about2"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/contact"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_instagram"
+                android:background="@drawable/buttonig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INSTAGRAM"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/btn_facebook"
+                android:background="@drawable/buttonfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FACEBOOK"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" © 2019 Nadya Djodjobo"/>
+
+
+</LinearLayout>
